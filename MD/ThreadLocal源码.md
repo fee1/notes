@@ -132,4 +132,4 @@ public class ThreadLocal<T> {
 差不多(它相同值时替换，HashMap是添加到链表或者树)。同一个ThreadLocal的set会把上一次的值覆盖掉，也就是说，同一个线程的同一个ThreadLocal
 进行set操作，会把之前的值覆盖掉。同一个Thread的不同ThreadLocal会均匀的分布在Entry数组里。
 ```
-![Image](../aimage/Threadlocal图解1.png)
+![Image](../aimage/Threadlocal.png)
