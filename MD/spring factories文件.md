@@ -9,7 +9,7 @@
 ```
 ```text
     org.springframework.boot.autoconfigure.EnableAutoConfiguration= 加载配置类
-    org.springframework.boot.env.EnvironmentPostProcessor= 实例化的类
+    org.springframework.boot.env.EnvironmentPostProcessor= key类型需要实例化的类
 ```
 # Spring Factories实现原理
 ```text
